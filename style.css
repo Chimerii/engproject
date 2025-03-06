@@ -14,14 +14,14 @@ font-family: Courier New;
   clear: both;
 }
 
-.scribeportrait, .demianportrait
+.scribeportrait, .knightportrait
 {
   width: 120.66px;
   height: 180.83px;
   margin-bottom: 60px;
 }
 
-.demianportrait
+.knightportrait
 {
   float: right;
 }
@@ -30,7 +30,7 @@ font-family: Courier New;
   float: left;
 }
 
-.scribebox, .demianbox{
+.scribebox, .knightbox{
   clear: both;
 }
 
@@ -39,8 +39,8 @@ font-family: Courier New;
   margin-right: 10%;
 }
 
-.demiantalk{
-  color: blue;
+.knighttalk{
+  color: #77BD93;
   text-align: right;
   margin-left: 10%;
 }
@@ -49,7 +49,7 @@ font-family: Courier New;
   margin-left: 10%;
 }
 
-.demianbox{
+.knightbox{
   margin-right: 10%;
 }
 
