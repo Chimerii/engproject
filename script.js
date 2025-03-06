@@ -50,6 +50,7 @@ const page2b = document.getElementById("follow2");
 page2b.innerHTML = ("I scorned myself for even entertaining the thoughts I had. What had I done?");
 const panel2 = document.querySelector("button");
 panel2.setAttribute("onclick", "publish6()");
+}
 
 function publish6() {
 const page2a = document.getElementById("follow");
@@ -58,6 +59,7 @@ const page2b = document.getElementById("follow2");
 page2b.innerHTML = ("After days of misery, I cast off my evil thoughts. I was atoned, but I lacked proof.");
 const panel2 = document.querySelector("button");
 panel2.setAttribute("onclick", "publish7()");
+}
 
 function publish7() {
 const page2a = document.getElementById("follow");
