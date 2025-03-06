@@ -5,6 +5,7 @@ const page1b = document.getElementById("follow2");
 page1b.innerHTML = ("Within me I found a joy that the others lacked.");
 const panel1 = document.querySelector("button");
 panel1.setAttribute("onclick", "publish1()");
+const demiinput =
 document.querySelector("follow4");
   demiinput.setAttribute('style', 'visibility: visible');
 }
