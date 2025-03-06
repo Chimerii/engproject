@@ -121,7 +121,7 @@ const panel2 = document.getElementById("bfollow3");
 panel2.setAttribute("onclick", "bpublish6()");
 }
 
-function bpublish5() {
+function bpublish6() {
 const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/qIZE25t.png");
 const page2b = document.getElementById("bfollow2");
