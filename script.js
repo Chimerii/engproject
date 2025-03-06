@@ -99,7 +99,7 @@ const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/GOT1a6l.png");
 const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("I watched him use the wing’s power to scope for his army. I watched him use the wing’s power to slay the warlord’s servants.");
-const panel2 = document.querySelector("bfollow3");
+const panel2 = document.getElementById("bfollow3");
 panel2.setAttribute("onclick", "bpublish4()");
 }
 
