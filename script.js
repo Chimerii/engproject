@@ -38,7 +38,7 @@ function publish4() {
 const page2a = document.getElementById("follow");
 page2a.setAttribute("src", "https://i.imgur.com/ErTRDtK.png");
 const page2b = document.getElementById("follow2");
-page2b.innerHTML = ("I scorned myself for even entertaining the thoughts I had. What had I done?");
+page2b.innerHTML = ("No evil can persist in Heaven, so I was tossed across the sea, too. Myself and my wing landed on opposite sides of the world.");
 const panel2 = document.querySelector("button");
 panel2.setAttribute("onclick", "publish5()");
 }
@@ -47,5 +47,23 @@ function publish5() {
 const page2a = document.getElementById("follow");
 page2a.setAttribute("src", "https://i.imgur.com/ErTRDtK.png");
 const page2b = document.getElementById("follow2");
-page2b.innerHTML = ("If I find my wing again, I thought, they will see me as good again. I must find it.");
+page2b.innerHTML = ("I scorned myself for even entertaining the thoughts I had. What had I done?");
+const panel2 = document.querySelector("button");
+panel2.setAttribute("onclick", "publish6()");
+
+function publish6() {
+const page2a = document.getElementById("follow");
+page2a.setAttribute("src", "https://i.imgur.com/ErTRDtK.png");
+const page2b = document.getElementById("follow2");
+page2b.innerHTML = ("After days of misery, I cast off my evil thoughts. I was atoned, but I lacked proof.");
+const panel2 = document.querySelector("button");
+panel2.setAttribute("onclick", "publish7()");
+
+function publish6() {
+const page2a = document.getElementById("follow");
+page2a.setAttribute("src", "https://i.imgur.com/ErTRDtK.png");
+const page2b = document.getElementById("follow2");
+page2b.innerHTML = ("”If I find my wing again,” I thought, “they will see me as good again. I must find it.”");
+const panel2 = document.querySelector("button");
+panel2.setAttribute("onclick", "publish7()");
 }
