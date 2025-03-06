@@ -1,0 +1,86 @@
+body {
+background-color: black;
+color: white;
+font-family: Courier New;
+}
+
+.intro {
+  height:250px;
+  width:fluid;
+  padding-right:10px;
+  border:0px solid;
+  font-size: 15px;
+  overflow: auto;
+  clear: both;
+}
+
+.scribeportrait, .demianportrait
+{
+  width: 120.66px;
+  height: 180.83px;
+  margin-bottom: 60px;
+}
+
+.demianportrait
+{
+  float: right;
+}
+
+.scribeportrait{
+  float: left;
+}
+
+.scribebox, .demianbox{
+  clear: both;
+}
+
+.scribetalk{
+  color: #C4947C;
+  margin-right: 10%;
+}
+
+.demiantalk{
+  color: blue;
+  text-align: right;
+  margin-left: 10%;
+}
+
+.scribebox{
+  margin-left: 10%;
+}
+
+.demianbox{
+  margin-right: 10%;
+}
+
+h1 {
+ font-family: Futura;
+ color: white;
+}
+.sin {
+ background-color: #C4947C;
+ font-family: Futura;
+ padding: 10px;
+}
+button {
+ color: white;
+ font-family: Futura;
+ font-size: 12px;
+ font-style: italic;
+ background-color: black;
+ border-radius: 5px;
+}
+.story {
+ height: 275.8;
+ width: 413.33px;
+ border: solid white 7px;
+ border-radius: 5px;
+}
+
+a {
+ color: white;
+}
+
+.storybox{
+  text-align: center;
+}
