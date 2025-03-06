@@ -6,7 +6,7 @@ page1b.innerHTML = ("Within me I found a joy that the others lacked.");
 const panel1 = document.querySelector("button");
 panel1.setAttribute("onclick", "publish1()");
 const demiinput =
-document.querySelector("div");
+document.querySelector("backbutton");
   demiinput.setAttribute('style', 'visibility: visible');
 }
 
