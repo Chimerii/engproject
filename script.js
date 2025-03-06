@@ -59,7 +59,7 @@ page2b.innerHTML = ("After days of misery, I cast off my evil thoughts. I was at
 const panel2 = document.querySelector("button");
 panel2.setAttribute("onclick", "publish7()");
 
-function publish6() {
+function publish7() {
 const page2a = document.getElementById("follow");
 page2a.setAttribute("src", "https://i.imgur.com/ErTRDtK.png");
 const page2b = document.getElementById("follow2");
