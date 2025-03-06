@@ -81,7 +81,7 @@ const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/3EmOlNt.png");
 const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("What hard work it was! I toiled like I never had before.");
-const panel2 = document.querySelector("bfollow3");
+const panel2 = document.getElementById("bfollow3");
 panel2.setAttribute("onclick", "bpublish2()");
 }
 
@@ -90,7 +90,7 @@ const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/NT7MSxK.png");
 const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("Alas, half of my power was held in hands of the Knight. Competent as he was, that skill was stolen.");
-const panel2 = document.querySelector("bfollow3");
+const panel2 = document.getElementById("bfollow3");
 panel2.setAttribute("onclick", "bpublish3()");
 }
 
@@ -108,7 +108,7 @@ const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/eYVJycE.png");
 const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("I did the same, and while I was revered for my skills, I was socially an outcast.");
-const panel2 = document.querySelector("bfollow3");
+const panel2 = document.getElementById("bfollow3");
 panel2.setAttribute("onclick", "bpublish5()");
 }
 
@@ -117,7 +117,7 @@ const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/LiyCkv5.png");
 const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("He spoke of morality, too, but when he and his army would settle for the night, he would sing songs I knew to be wretched, and ate food I knew to be impure.");
-const panel2 = document.querySelector("bfollow3");
+const panel2 = document.getElementById("bfollow3");
 panel2.setAttribute("onclick", "bpublish6()");
 }
 
