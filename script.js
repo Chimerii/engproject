@@ -64,6 +64,4 @@ const page2a = document.getElementById("follow");
 page2a.setAttribute("src", "https://i.imgur.com/ErTRDtK.png");
 const page2b = document.getElementById("follow2");
 page2b.innerHTML = ("”If I find my wing again,” I thought, “they will see me as good again. I must find it.”");
-const panel2 = document.querySelector("button");
-panel2.setAttribute("onclick", "publish7()");
 }
