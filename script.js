@@ -5,6 +5,8 @@ const page1b = document.getElementById("follow2");
 page1b.innerHTML = ("Within me I found a joy that the others lacked.");
 const panel1 = document.querySelector("button");
 panel1.setAttribute("onclick", "publish1()");
+document.querySelector("follow4");
+  demiinput.setAttribute('style', 'visibility: visible');
 }
 
 function publish1() {
@@ -66,4 +68,9 @@ const page2a = document.getElementById("follow");
 page2a.setAttribute("src", "https://i.imgur.com/xldhJCF.png");
 const page2b = document.getElementById("follow2");
 page2b.innerHTML = ("”If I find my wing again,” I thought, “they will see me as good again. I must find it.”");
+}
+
+function backpublish() {
+const panel2 = document.querySelector("follow4");
+panel2.setAttribute("onclick", "publish7()");
 }
