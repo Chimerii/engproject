@@ -77,8 +77,8 @@ panel2.setAttribute("onclick", "publish7()");
 }
 
 function bpublish() {
-const page2a = document.getElementById("follow");
+const page2a = document.getElementById("bfollow");
 page2a.setAttribute("src", "https://i.imgur.com/3EmOlNt.png");
-const page2b = document.getElementById("follow2");
+const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("What hard work it was! I toiled like I never had before.");
 }
