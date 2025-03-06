@@ -75,3 +75,10 @@ function backpublish() {
 const panel2 = document.querySelector("follow4");
 panel2.setAttribute("onclick", "publish7()");
 }
+
+function bpublish() {
+const page2a = document.getElementById("follow");
+page2a.setAttribute("src", "https://i.imgur.com/3EmOlNt.png");
+const page2b = document.getElementById("follow2");
+page2b.innerHTML = ("What hard work it was! I toiled like I never had before.");
+}
