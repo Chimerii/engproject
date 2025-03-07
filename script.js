@@ -7,7 +7,7 @@ const panel1 = document.querySelector("button");
 panel1.setAttribute("onclick", "publish1()");
 const demiinput =
 document.querySelector("backbutton");
-  demiinput.setAttribute('style', 'visibility: hidden');
+  demiinput.setAttribute('style', 'visibility: visible');
 }
 
 function publish1() {
@@ -72,7 +72,7 @@ page2b.innerHTML = ("”If I find my wing again,” I thought, “they will see 
 }
 
 function backpublish() {
-const panel2 = document.querySelector("follow4");
+const panel2 = document.querySelector("bbfollow4");
 panel2.setAttribute("onclick", "publish7()");
 }
 
