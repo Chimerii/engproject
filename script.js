@@ -7,7 +7,7 @@ const panel1 = document.querySelector("button");
 panel1.setAttribute("onclick", "publish1()");
 const demiinput =
 document.querySelector("backbutton");
-  demiinput.setAttribute('style', 'visibility: visible');
+  demiinput.setAttribute('style', 'visibility: hidden');
 }
 
 function publish1() {
