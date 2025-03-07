@@ -7,7 +7,7 @@ const panel1 = document.querySelector("button");
 panel1.setAttribute("onclick", "publish1()");
 const demiinput =
 document.querySelector("backbutton");
-  demiinput.setAttribute('style', 'visibility: hidden');
+  demiinput.setAttribute('style', 'visibility: visible');
 }
 
 function publish1() {
@@ -151,7 +151,7 @@ function cpublish3() {
 const page2a = document.getElementById("cfollow");
 page2a.setAttribute("src", "https://i.imgur.com/3W2sLCl.png");
 const page2b = document.getElementById("cfollow2");
-page2b.innerHTML = ("<span class="red">God</span> commanded me to join him.");
+page2b.innerHTML = ("God commanded me to join him.");
 const panel2 = document.getElementById("cfollow3");
 panel2.setAttribute("onclick", "cpublish4()");
 }
