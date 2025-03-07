@@ -127,3 +127,110 @@ page2a.setAttribute("src", "https://i.imgur.com/qIZE25t.png");
 const page2b = document.getElementById("bfollow2");
 page2b.innerHTML = ("My personal experience confused me when his fellows would join in and do the same.");
 }
+
+function cpublish() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/fSvvmLs.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("Yes, their leader looked like God. I felt the urge to kneel before him, as all good angels should.");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish2()");
+}
+
+function cpublish2() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/RVZ2s6p.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("God commanded me to forsake my wicked thoughts.");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish3()");
+}
+
+
+function cpublish3() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/RVZ2s6p.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("God commanded me to join him.");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish4()");
+}
+
+function cpublish4() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/IGUhRoQ.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("The Knight was singing a war song. One of the ones I sang to the angels in earnest before I was banished from Heaven.");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish5()");
+}
+
+function cpublish5() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/jTmzSos.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("I sang with him as we struck God down.");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish6()");
+}
+
+function cpublish6() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/G30AeXZ.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("THE KNIGHT GAVE ME HIS WING");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish7()");
+}
+
+function cpublish7() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/im2tq9Q.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("I WAS LIBERATED AGAIN");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish8()");
+}
+
+function cpublish8() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/fWFy1OV.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("I HAD KILLED OUR LORD");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish9()");
+}
+
+function cpublish9() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/bEUlK4c.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("I HAD KILLED A MONSTER");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish10()");
+}
+
+function cpublish10() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/WCcXEAe.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("I returned the wing to the Knight.");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish11()");
+}
+
+function cpublish11() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/WCcXEAe.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("...");
+const panel2 = document.getElementById("cfollow3");
+panel2.setAttribute("onclick", "cpublish12()");
+}
+
+function cpublish12() {
+const page2a = document.getElementById("cfollow");
+page2a.setAttribute("src", "https://i.imgur.com/WCcXEAe.png");
+const page2b = document.getElementById("cfollow2");
+page2b.innerHTML = ("I cast my other wing off to the sea.");
+}
