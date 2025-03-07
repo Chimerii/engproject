@@ -149,9 +149,9 @@ panel2.setAttribute("onclick", "cpublish3()");
 
 function cpublish3() {
 const page2a = document.getElementById("cfollow");
-page2a.setAttribute("src", "https://i.imgur.com/RVZ2s6p.png");
+page2a.setAttribute("src", "https://i.imgur.com/3W2sLCl.png");
 const page2b = document.getElementById("cfollow2");
-page2b.innerHTML = ("God commanded me to join him.");
+page2b.innerHTML = ("<span class="red">God</span> commanded me to join him.");
 const panel2 = document.getElementById("cfollow3");
 panel2.setAttribute("onclick", "cpublish4()");
 }
